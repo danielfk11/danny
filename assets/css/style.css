@@ -7,6 +7,9 @@
     --html-color: #ffffffda;
     --css-color: #039BE5;
     --js-color: #FFD600;
+    --react-color: #40C4FF;
+    --node-color: #88C043;
+    --typescript-color: #007ACC;
 }
 
 * {
@@ -52,7 +55,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-top: 2%;
-    margin-left: 42.5%;
+    margin-left: 42.7%;
     margin-bottom: 3%;
 }
 
@@ -95,6 +98,11 @@ header {
 .menu i:hover {
     font-size: 3.5rem;
     color: var(--terciary);
+}
+
+.text {
+    margin-left: 35px;
+    margin-top: 50px;
 }
 
 .menu_mobile {
@@ -467,8 +475,8 @@ header {
 }
 
 .projeto-card-desc-categoria.go {
-    border: 2px solid var(--css-color);    
-    background-color: rgba(15, 184, 206, 0.226);
+    border: 2px solid yellow;    
+    background-color: rgba(252, 250, 151, 0.445);
 }
 
 
@@ -520,7 +528,6 @@ header {
         text-transform: uppercase;
         margin-left: 20px;
     }
-
 
     header {
         height: auto;
